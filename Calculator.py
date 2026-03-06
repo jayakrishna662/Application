@@ -22,7 +22,7 @@ class Calculator:
             return "Error: Cannot compute square root of negative number"
         return a ** 0.5
     def log(self,a):
-        return math.log10(a)
+        return math.log2(a)
 
 
 
