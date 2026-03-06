@@ -1,3 +1,4 @@
+import math
 class Calculator:
     def add(self, a, b):
         return a + b
@@ -20,6 +21,9 @@ class Calculator:
         if a < 0:
             return "Error: Cannot compute square root of negative number"
         return a ** 0.5
+    def log(self,a):
+        return math.log10(a)
+
 
 
 def main():
@@ -32,6 +36,7 @@ def main():
     print(f"10 / 5 = {calc.divide(10, 5)}")
     print(f"2 ^ 8 = {calc.power(2, 8)}")
     print(f"√16 = {calc.sqrt(16)}")
+    print(f"log100={calc.log(100)}")
 
 
 if __name__ == "__main__":
