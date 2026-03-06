@@ -21,7 +21,7 @@ def calculate_discount(original_price, discount_percent):
 
 
 if __name__ == "__main__":
-    price = 100
+    price = 300
     discount = 20
     result = calculate_discount(price, discount)
     
