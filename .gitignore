@@ -1,2 +1,3 @@
 #ignore java file
 ignoredfile.java
+.env
